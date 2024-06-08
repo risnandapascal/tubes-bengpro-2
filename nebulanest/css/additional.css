@@ -1,0 +1,124 @@
+.animate__animated {
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+}
+.hover-effect:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-links:hover {
+    color: #880E4F;
+}
+
+.content {
+    background-color: #fff;
+    color: #1a1918;
+}
+
+.same-size {
+    width: 30%; 
+    object-fit: cover;
+}
+
+.nav-hover {
+    position: relative;
+    display: inline-block;
+    transition: color 0.3s;
+}
+
+.nav-hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #f47c94;
+    transition: transform 0.3s ease-out;
+}
+
+.nav-hover:hover::after {
+    transform: scaleX(1);
+}
+
+.btn-primary {
+    background-color: #ec002a;
+    border-color: #ec002a;
+    color: #fff;
+  }
+  
+  .btn-primary:hover,
+  .btn-primary:focus,
+  .btn-primary:active,
+  .btn-primary.active,
+  .open > .dropdown-toggle.btn-primary {
+    background-color: #bc000f;
+    border-color: #bc000f;
+    color: #fff4f5;
+  }
+
+.btn-yellow {
+    background-color: #fde4a1;
+    border-color: #fde4a1;
+    color: #000; 
+}
+
+ .btn-yellow:hover,
+  .btn-yellow:focus,
+  .btn-dyellow:active,
+  .btn-yellow.active,
+  .open > .dropdown-toggle.btn-primary {
+    background-color: #f8c075; 
+    border-color: #f8c075; 
+    color: #fff;
+  }
+  
+
+  #scrollBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #f47c94; 
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10%;
+    transition: background-color 0.3s ease;
+}
+
+#scrollBtn:hover {
+    background-color: #de6076; 
+}
+
+/* payments */
+.modal-header {
+    border-bottom: none;
+}
+.modal-footer {
+    border-top: none;
+}
+.modal-body {
+    font-size: 1rem;
+}
+.modal-content {
+    border-radius: 10px;
+}
+.close {
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
