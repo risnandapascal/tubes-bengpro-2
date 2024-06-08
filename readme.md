@@ -1,4 +1,4 @@
-# NebulaNest - Tugas Besar Bengkel Pemrograman 2
+# NebulaNest - Company Profile Website
 
 Ini adalah tugas besar Bengkel Pemrograman 2 yang luar biasa yang kami bangun bersama-sama!
 
